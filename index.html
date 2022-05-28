@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BoardPad</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <script src="./scripts/createButton.js"></script>
+    <script src="./scripts/showMessages.js"></script>
+    <script src="./scripts/sendMessage.js"></script>
+    <script src="./scripts/help.js"></script>
+
+    <div class="navbar">
+      <p class="navbar-text">BoardPad</p>
+    </div>
+    <br />
+
+    <div class="container add-comment hidden" id="add-comment">
+      <div class="row">
+        <div class="col-sm-12" >
+          <br />
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Create a new Message</h5>
+                <div class="form-group">
+                  <label for="boardName"><i class="fa fa-youtube-square" aria-hidden="true"></i> Name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="title"
+                    name="boardName"
+                    placeholder="Enter your name"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="boardDescription">Message</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="message"
+                    name="boardDescription"
+                    placeholder="Enter message"
+                  />
+                </div>
+                <button class="btn btn-primary" onclick="sendMessage()">Create</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br />
+
+    <div class="cards-container container ">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Messages</h5>
+              <div class="card-text"  id="messageList">
+
+                
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="new-button">
+      <button class="new-button-button" onclick="handleButtonClick()">
+        <span class="material-icons new-button-icon">add</span>
+      </button>
+    </div>
+
+    <div class="help-button">
+      <button class="help-button-button" onclick="help()">
+        <span class="material-icons new-button-icon">help</span>
+      </button>
+    </div>
+  </body>
+</html>

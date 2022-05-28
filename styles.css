@@ -1,0 +1,130 @@
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background: rgba(0,0,0,0.1);
+  }
+  ::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background: rgba(0,0,0,0.2);
+  }
+  ::-webkit-scrollbar-thumb:hover{
+    background: rgba(0,0,0,0.4);
+  }
+  ::-webkit-scrollbar-thumb:active{
+    background: rgba(0,0,0,.9);
+  }
+
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    margin: none;
+    padding: none;
+}
+
+body {
+    margin: 0px!important;
+    padding: 0;
+    height: 100vh;
+}
+
+.navbar {
+    width: 100vw;
+    height: 60px;
+    background-color: #0051ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-text {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.new-button {
+    margin: 0px;
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    
+}
+
+.help-button {
+    margin: 0px;
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
+    
+}
+
+.scrollable {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: auto;
+}
+
+.card-text {
+    height: 100%;
+}
+
+.cards-container {
+    /* border: solid 1px rgb(151, 151, 151); */
+    box-shadow: black 0px 0px 5px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.new-button-button {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px #888888;
+    background-color: #407af8;
+    align-items: center;
+    justify-content: center;
+}
+
+.help-button-button {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px #888888;
+    background-color: #407af8;
+    align-items: center;
+    justify-content: center;
+}
+
+.new-button-icon {
+    color: white;
+}
+
+.add-comment {
+    transition: height 0.5s;
+    box-shadow: black 0px 0px 5px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.hidden {
+    display: none;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
