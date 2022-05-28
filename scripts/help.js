@@ -1,16 +1,16 @@
 function help() {
     alert(`
-Boardpad is a simple yet effective messaging app
-It is compatible with mobile devices as well as desktop browsers.
+Boardpad este o aplicație de mesagerie simplă, dar eficientă
+Este compatibil cu dispozitivele mobile, precum și cu browserele desktop.
 
-To use it, press the plus button to create a new message, fill the fields and press send.
-You can see the last 10 messages sent in the messages section.
-messages older than that will be deleted forever!
+Pentru a-l folosi, apăsați butonul plus pentru a crea un mesaj nou, completați câmpurile și apăsați trimitere.
+Puteți vedea ultimele 10 mesaje trimise în secțiunea de mesaje.
+mesajele mai vechi de atât vor fi șterse pentru totdeauna!
 
-coded and designed by: Rares Tudor Palasan and Rares Mihai Tudoroiu
+codificat si proiectat de: Rares Tudor Palasan si Rares Mihai Tudoroiu
 
-hosted by: Rares Tudor Palasan
+găzduit de: Rares Tudor Palasan
 
-Thanks for using Boardpad!
+Vă mulțumim pentru utilizarea Boardpad!
     `)
 }

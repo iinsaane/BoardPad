@@ -17,6 +17,6 @@ function sendMessage() {
     );
     xmlhttp.send();
   } else {
-    alert("Please enter a title and message");
+    alert("Va rog sa unpleti toate campuriile");
   }
 }
