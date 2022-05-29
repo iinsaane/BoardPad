@@ -80,7 +80,7 @@ body {
 
 .cards-container {
     /* border: solid 1px rgb(151, 151, 151); */
-    box-shadow: black 0px 0px 5px;
+    /* box-shadow: black 0px 0px 5px; */
     padding: 10px;
     border-radius: 5px;
 }
@@ -90,7 +90,7 @@ body {
     height: 100%;
     width: 100%;
     border-radius: 50%;
-    box-shadow: 5px 5px 5px #888888;
+    /* box-shadow: 5px 5px 5px #888888;*/
     background-color: #407af8;
     align-items: center;
     justify-content: center;
@@ -113,7 +113,7 @@ body {
 
 .add-comment {
     transition: height 0.5s;
-    box-shadow: black 0px 0px 5px;
+    /*box-shadow: black 0px 0px 5px;*/
     padding: 10px;
     border-radius: 5px;
 }
